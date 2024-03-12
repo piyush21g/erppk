@@ -5,7 +5,6 @@ import { DatePickerComponent } from '@syncfusion/ej2-react-calendars';
 import { scheduleData } from '../data/dummy';
 import { Header } from '../components';
 
-// eslint-disable-next-line react/destructuring-assignment
 const PropertyPane = (props) => <div className="mt-5">{props.children}</div>;
 
 const Scheduler = () => {
@@ -17,8 +16,19 @@ const Scheduler = () => {
   };
 
   const onDragStart = (arg) => {
-    // eslint-disable-next-line no-param-reassign
     arg.navigation.enable = true;
+  };
+
+  // Define event template function
+  const eventTemplate = (props) => {
+    return (
+      <div>
+        <div>{props.Subject}</div>
+        <div>{props.StartTime.toLocaleString()}</div>
+        <div>{props.Location}</div>
+        <div>Status: {props.Status}</div> {/* Display the Status here */}
+      </div>
+    );
   };
 
   return (
@@ -28,18 +38,19 @@ const Scheduler = () => {
         height="650px"
         ref={(schedule) => setScheduleObj(schedule)}
         selectedDate={new Date(2024, 0, 10)}
-        eventSettings={{ dataSource: scheduleData }}
+        eventSettings={{
+          dataSource: scheduleData,
+          template: eventTemplate // Assign the event template
+        }}
         dragStart={onDragStart}
       >
         <ViewsDirective>
-          { ['Day', 'Week', 'WorkWeek', 'Month', 'Agenda'].map((item) => <ViewDirective key={item} option={item} />)}
+          {['Day', 'Week', 'WorkWeek', 'Month', 'Agenda'].map((item) => <ViewDirective key={item} option={item} />)}
         </ViewsDirective>
         <Inject services={[Day, Week, WorkWeek, Month, Agenda, Resize, DragAndDrop]} />
       </ScheduleComponent>
       <PropertyPane>
-        <table
-          style={{ width: '100%', background: 'white' }}
-        >
+        <table style={{ width: '100%', background: 'white' }}>
           <tbody>
             <tr style={{ height: '50px' }}>
               <td style={{ width: '100%' }}>
@@ -60,3 +71,5 @@ const Scheduler = () => {
 };
 
 export default Scheduler;
+
+
