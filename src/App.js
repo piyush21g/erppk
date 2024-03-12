@@ -4,7 +4,7 @@ import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
 import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
-import { Ecommerce, Orders, Calendar, Employees,  Customers, Kanban, ColorPicker, Editor } from './pages';
+import { Ecommerce, Orders, Calendar, Employees,  Customers, Kanban, ColorPicker} from './pages';
 import './App.css';
 
 import { useStateContext } from './contexts/ContextProvider';
@@ -19,7 +19,7 @@ const App = () => {
       setCurrentColor(currentThemeColor);
       setCurrentMode(currentThemeMode);
     }
-  }, []);
+  }, [setCurrentColor, setCurrentMode]); // Add dependencies here
 
   return (
     <div className={currentMode === 'Dark' ? 'dark' : ''}>
@@ -75,7 +75,7 @@ const App = () => {
 
                 {/* apps  */}
                 <Route path="/kanban" element={<Kanban />} />
-                <Route path="/editor" element={<Editor />} />
+                
                 <Route path="/calendar" element={<Calendar />} />
                 <Route path="/color-picker" element={<ColorPicker />} />
 
