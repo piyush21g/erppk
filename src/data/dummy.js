@@ -368,54 +368,6 @@ export const weeklyStats = [
 ];
 
 
-export const medicalproBranding = {
-  data: [
-    {
-      title: 'Due Date',
-      desc: 'Oct 23, 2024',
-    },
-    {
-      title: 'Budget',
-      desc: '$98,500',
-    },
-    {
-      title: 'Expense',
-      desc: '$63,000',
-    },
-  ],
-  teams: [
-    {
-      name: 'Bootstrap',
-      color: 'orange',
-    },
-    {
-      name: 'Angular',
-      color: '#FB9678',
-    },
-  ],
-  leaders: [
-    {
-      image:
-        avatar2,
-    },
-    {
-      image:
-        avatar3,
-    },
-    {
-      image:
-        avatar2,
-    },
-    {
-      image:
-        avatar4,
-    },
-    {
-      image:
-        avatar,
-    },
-  ],
-};
 
 export const themeColors = [
   {
