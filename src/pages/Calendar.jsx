@@ -32,44 +32,44 @@ const Scheduler = () => {
   };
 
   return (
-    <div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl">
-      <Header category="App" title="Calendar" />
-      <ScheduleComponent
-        height="650px"
-        ref={(schedule) => setScheduleObj(schedule)}
-        selectedDate={new Date(2024, 0, 10)}
-        eventSettings={{
-          dataSource: scheduleData,
-          template: eventTemplate // Assign the event template
-        }}
-        dragStart={onDragStart}
-      >
-        <ViewsDirective>
-          {['Day', 'Week', 'WorkWeek', 'Month', 'Agenda'].map((item) => <ViewDirective key={item} option={item} />)}
-        </ViewsDirective>
-        <Inject services={[Day, Week, WorkWeek, Month, Agenda, Resize, DragAndDrop]} />
-      </ScheduleComponent>
-      <PropertyPane>
-        <table style={{ width: '100%', background: 'white' }}>
-          <tbody>
-            <tr style={{ height: '50px' }}>
-              <td style={{ width: '100%' }}>
-                <DatePickerComponent
-                  value={new Date(2024, 0, 10)}
-                  showClearButton={false}
-                  placeholder="Current Date"
-                  floatLabelType="Always"
-                  change={change}
-                />
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </PropertyPane>
+    <div className="mt-0 p-4 bg-gray-100 rounded-3xl overflow-hidden">
+      <Header title="Calendar" />
+      <div className="m-2 md:m-10 p-6 bg-white rounded-3xl">
+        <ScheduleComponent
+          height="650px"
+          ref={(schedule) => setScheduleObj(schedule)}
+          selectedDate={new Date(2024, 0, 10)}
+          eventSettings={{
+            dataSource: scheduleData,
+            template: eventTemplate // Assign the event template
+          }}
+          dragStart={onDragStart}
+        >
+          <ViewsDirective>
+            {['Day', 'Week', 'WorkWeek', 'Month', 'Agenda'].map((item) => <ViewDirective key={item} option={item} />)}
+          </ViewsDirective>
+          <Inject services={[Day, Week, WorkWeek, Month, Agenda, Resize, DragAndDrop]} />
+        </ScheduleComponent>
+        <PropertyPane>
+          <table style={{ width: '100%', background: 'white' }}>
+            <tbody>
+              <tr style={{ height: '50px' }}>
+                <td style={{ width: '100%' }}>
+                  <DatePickerComponent
+                    value={new Date(2024, 0, 10)}
+                    showClearButton={false}
+                    placeholder="Current Date"
+                    floatLabelType="Always"
+                    change={change}
+                  />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </PropertyPane>
+      </div>
     </div>
   );
 };
 
 export default Scheduler;
-
-

@@ -18,27 +18,29 @@ const Employees = () => {
   };
 
   return (
-    <div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl">
-      <Header category="Page" title="Employees" />
-      <GridComponent
-        ref={gridRef}
-        dataSource={employeesData}
-        width="auto"
-        allowPaging
-        allowSorting
-        pageSettings={{ pageCount: 5 }}
-        editSettings={editing}
-        toolbar={toolbarOptions}
-        commandClick={commandClick}
-      >
-        <ColumnsDirective>
-          {/* eslint-disable-next-line react/jsx-props-no-spreading */}
-          {employeesGrid.map((item, index) => <ColumnDirective key={index} {...item} />)}
-        </ColumnsDirective>
-        <Inject services={[Toolbar, Edit, Page, CommandColumn]} />
-
-      </GridComponent>
+    <div className="container mx-auto p-4 bg-gray-100 rounded-lg shadow-md">
+      <Header title="Employees" style={{ fontSize: '1rem', marginTop: '0.5rem' }} />
+      <div className="mt-2 bg-white rounded-lg shadow">
+        <GridComponent
+          ref={gridRef}
+          dataSource={employeesData}
+          width="auto"
+          allowPaging
+          allowSorting
+          pageSettings={{ pageCount: 5 }}
+          editSettings={editing}
+          toolbar={toolbarOptions}
+          commandClick={commandClick}
+          style={{ marginTop: '0.5rem' }}
+        >
+          <ColumnsDirective>
+            {employeesGrid.map((item, index) => <ColumnDirective key={index} {...item} />)}
+          </ColumnsDirective>
+          <Inject services={[Toolbar, Edit, Page, CommandColumn]} />
+        </GridComponent>
+      </div>
     </div>
   );
 };
+
 export default Employees;

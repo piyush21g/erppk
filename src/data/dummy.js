@@ -693,24 +693,24 @@ export const employeesData = [
 
 
 export const scheduleData = [
-  {
-    Id: 1,
-    Subject: 'Ice Cream',
-    Location: 'Mumbai',
-    StartTime: '2024-01-10T04:00:00.000Z',
-    EndTime: '2024-01-10T05:30:00.000Z',
-    CategoryColor: '#1aaa55',
-    Status: 'Pending'
-  },
-  {
-    Id: 2,
-    Subject: 'Vegetable',
-    Location: 'Delhi',
-    StartTime: '2024-01-11T06:30:00.000Z',
-    EndTime: '2024-01-11T08:30:00.000Z',
-    CategoryColor: '#357cd2',
-    Status: 'Pending'
-  },
+    {
+      Id: 1,
+      Subject: 'Ice Cream',
+      Location: 'Mumbai',
+      StartTime: new Date('2024-01-10T00:30:00'), // Changed to 12:30 AM
+      EndTime: new Date('2024-01-10T01:30:00'), // Changed to 1:30 AM
+      CategoryColor: '#1aaa55',
+      Status: 'Pending'
+    },
+    {
+      Id: 2,
+      Subject: 'Vegetable',
+      Location: 'Delhi',
+      StartTime: new Date('2024-01-11T02:00:00'), // Changed to 2:00 AM
+      EndTime: new Date('2024-01-11T03:00:00'), // Changed to 3:00 AM
+      CategoryColor: '#357cd2',
+      Status: 'Pending'
+    },
   {
     Id: 3,
     Subject: 'Milk',

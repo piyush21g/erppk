@@ -13,27 +13,28 @@ import {
 import Box from "@mui/material/Box";
 
 const orders = [
-    { id: 1, orderId: "ORD001", customerName: "John Doe", orderDate: "2024-03-10", status: "Pending" },
-    { id: 2, orderId: "ORD002", customerName: "Jane Smith", orderDate: "2024-03-09", status: "Delivered" },
-    { id: 3, orderId: "ORD003", customerName: "Alice Johnson", orderDate: "2024-03-08", status: "Processing" },
-    { id: 4, orderId: "ORD004", customerName: "Bob Brown", orderDate: "2024-03-07", status: "Pending" },
-    { id: 5, orderId: "ORD005", customerName: "Charlie Davis", orderDate: "2024-03-06", status: "Delivered" },
-    { id: 6, orderId: "ORD006", customerName: "Emma Wilson", orderDate: "2024-03-05", status: "Cancelled" },
-    { id: 7, orderId: "ORD007", customerName: "James Taylor", orderDate: "2024-03-04", status: "Processing" },
-    { id: 8, orderId: "ORD008", customerName: "Sophia Martinez", orderDate: "2024-03-03", status: "Pending" },
-    { id: 9, orderId: "ORD009", customerName: "Michael Brown", orderDate: "2024-03-02", status: "Processing" },
-    { id: 10, orderId: "ORD010", customerName: "Olivia Wilson", orderDate: "2024-03-01", status: "Delivered" },
-    { id: 11, orderId: "ORD011", customerName: "William Johnson", orderDate: "2024-02-29", status: "Pending" },
-    { id: 12, orderId: "ORD012", customerName: "Ava Taylor", orderDate: "2024-02-28", status: "Delivered" },
-    { id: 13, orderId: "ORD013", customerName: "Alexander Davis", orderDate: "2024-02-27", status: "Processing" },
-    { id: 14, orderId: "ORD014", customerName: "Mia Wilson", orderDate: "2024-02-26", status: "Pending" },
-    { id: 15, orderId: "ORD015", customerName: "Ethan Brown", orderDate: "2024-02-25", status: "Processing" },
-    { id: 16, orderId: "ORD016", customerName: "Isabella Martinez", orderDate: "2024-02-24", status: "Delivered" },
-    { id: 17, orderId: "ORD017", customerName: "James Smith", orderDate: "2024-02-23", status: "Pending" },
-    { id: 18, orderId: "ORD018", customerName: "Sophia Johnson", orderDate: "2024-02-22", status: "Processing" },
-    { id: 19, orderId: "ORD019", customerName: "Logan Taylor", orderDate: "2024-02-21", status: "Cancelled" },
-    { id: 20, orderId: "ORD020", customerName: "Charlotte Brown", orderDate: "2024-02-20", status: "Delivered" },
-  ];
+  { id: 1, orderId: "ORD001", customerName: "Aarav Patel", orderDate: "2024-03-10", status: "Pending" },
+  { id: 2, orderId: "ORD002", customerName: "Bhavya Shah", orderDate: "2024-03-09", status: "Delivered" },
+  { id: 3, orderId: "ORD003", customerName: "Chetan Sharma", orderDate: "2024-03-08", status: "Processing" },
+  { id: 4, orderId: "ORD004", customerName: "Dhruv Joshi", orderDate: "2024-03-07", status: "Pending" },
+  { id: 5, orderId: "ORD005", customerName: "Esha Singh", orderDate: "2024-03-06", status: "Delivered" },
+  { id: 6, orderId: "ORD006", customerName: "Fiza Gupta", orderDate: "2024-03-05", status: "Cancelled" },
+  { id: 7, orderId: "ORD007", customerName: "Girish Kumar", orderDate: "2024-03-04", status: "Processing" },
+  { id: 8, orderId: "ORD008", customerName: "Hina Sharma", orderDate: "2024-03-03", status: "Pending" },
+  { id: 9, orderId: "ORD009", customerName: "Ishaan Gupta", orderDate: "2024-03-02", status: "Processing" },
+  { id: 10, orderId: "ORD010", customerName: "Jhanvi Patel", orderDate: "2024-03-01", status: "Delivered" },
+  { id: 11, orderId: "ORD011", customerName: "Kabir Singh", orderDate: "2024-02-29", status: "Pending" },
+  { id: 12, orderId: "ORD012", customerName: "Lavanya Joshi", orderDate: "2024-02-28", status: "Delivered" },
+  { id: 13, orderId: "ORD013", customerName: "Mohit Sharma", orderDate: "2024-02-27", status: "Processing" },
+  { id: 14, orderId: "ORD014", customerName: "Neha Gupta", orderDate: "2024-02-26", status: "Pending" },
+  { id: 15, orderId: "ORD015", customerName: "Omkar Patel", orderDate: "2024-02-25", status: "Processing" },
+  { id: 16, orderId: "ORD016", customerName: "Pooja Shah", orderDate: "2024-02-24", status: "Delivered" },
+  { id: 17, orderId: "ORD017", customerName: "Qamar Ali", orderDate: "2024-02-23", status: "Pending" },
+  { id: 18, orderId: "ORD018", customerName: "Rahul Sharma", orderDate: "2024-02-22", status: "Processing" },
+  { id: 19, orderId: "ORD019", customerName: "Sneha Gupta", orderDate: "2024-02-21", status: "Cancelled" },
+  { id: 20, orderId: "ORD020", customerName: "Tanvi Patel", orderDate: "2024-02-20", status: "Delivered" },
+];
+
   
   
 
