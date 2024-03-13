@@ -82,7 +82,7 @@ const Kanban = () => {
           </TableHead>
           <TableBody>
             {products.map((product, index) => (
-              <TableRow key={product.id} style={{ background: "rgb(242, 240, 240)" }}>
+              <TableRow key={product.id} style={{ background: "#ffffff" }}>
                 <TableCell align="center">{index + 1}</TableCell>
                 <TableCell align="center">{product.name}</TableCell>
                 <TableCell align="center">${product.price.toFixed(2)}</TableCell>
