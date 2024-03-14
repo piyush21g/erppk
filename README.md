@@ -36,7 +36,7 @@ The application will open in your default web browser. If not, navigate to http:
 - The Dashboard displays key metrics or features, such as total number of products and orders.
 - Links or buttons are provided for quick navigation to the Products and Orders management pages.
   
-![App Screenshot]([https://github.com/piyush21g/erppk/tree/main/Screenshots](https://github.com/piyush21g/erppk/blob/main/Screenshots/Screenshot%202024-03-14%20145127.png))
+![App Screenshot](https://github.com/piyush21g/erppk/blob/main/Screenshots/Screenshot%202024-03-14%20145127.png)
 
 ### Products Management Page
 
