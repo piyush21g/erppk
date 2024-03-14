@@ -37,6 +37,7 @@ The application will open in your default web browser. If not, navigate to http:
 - Links or buttons are provided for quick navigation to the Products and Orders management pages.
   
 ![App Screenshot](https://github.com/piyush21g/erppk/blob/main/Screenshots/Screenshot%202024-03-14%20145127.png)
+![App Screenshot](https://github.com/piyush21g/erppk/blob/main/Screenshots/Screenshot%202024-03-14%20145820.png)
 
 ### Products Management Page
 
@@ -54,7 +55,7 @@ The application will open in your default web browser. If not, navigate to http:
 - Navigate to the Orders Management page by clicking on the "Orders" link/button in the Dashboard.
 - The Orders Management page displays a list of orders with details such as order ID, customer name, order date, and status.
   
-![App Screenshot](https://github.com/PratyayRaj/Pratyay_ERP/blob/main/Screenshots/Screenshot%202024-03-14%20144333.png)
+![App Screenshot](https://github.com/piyush21g/erppk/blob/main/Screenshots/Screenshot%202024-03-14%20145912.png)
 
 - View order details, update order status, and delete orders as required.
   
