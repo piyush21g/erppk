@@ -72,3 +72,7 @@ The application will open in your default web browser. If not, navigate to http:
   
 ![App Screenshot](https://github.com/piyush21g/erppk/blob/main/Screenshots/Screenshot%202024-03-14%20152039.png)
 ![App Screenshot](https://github.com/piyush21g/erppk/blob/main/Screenshots/Screenshot%202024-03-14%20150218.png)
+
+### Contributing
+
+- Contributions are welcome! Feel free to submit pull requests or open issues for any improvements or suggestions.
