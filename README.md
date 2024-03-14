@@ -43,12 +43,13 @@ The application will open in your default web browser. If not, navigate to http:
 
 - Click on the "Products" link/button in the Dashboard to navigate to the Products Management page.
   
-![App Screenshot](https://github.com/PratyayRaj/Pratyay_ERP/blob/main/Screenshots/Screenshot%202024-03-13%20020930.png)
+![App Screenshot](https://github.com/piyush21g/erppk/blob/main/Screenshots/Screenshot%202024-03-14%20150245.png)
 
 - The Products Management page presents a list of products with details including name, category, price, and stock quantity.
 - You can add, edit, and delete products using the functionalities provided.
   
-![App Screenshot](https://github.com/PratyayRaj/Pratyay_ERP/blob/main/Screenshots/Screenshot%202024-03-13%20021006.png)
+![App Screenshot](https://github.com/piyush21g/erppk/blob/main/Screenshots/Screenshot%202024-03-14%20150327.png)
+![App Screenshot](https://github.com/piyush21g/erppk/blob/main/Screenshots/Screenshot%202024-03-14%20150347.png)
 
 ### Orders Management Page
 
@@ -59,14 +60,15 @@ The application will open in your default web browser. If not, navigate to http:
 
 - View order details, update order status, and delete orders as required.
   
-![App Screenshot](https://github.com/PratyayRaj/Pratyay_ERP/blob/main/Screenshots/Screenshot%202024-03-14%20144506.png)
+![App Screenshot](https://github.com/piyush21g/erppk/blob/main/Screenshots/Screenshot%202024-03-14%20155439.png)
 
 ### Orders Calendar View
 
 - If implemented, the Orders Calendar View provides a calendar interface displaying orders based on their expected delivery dates.
   
-![App Screenshot](https://github.com/PratyayRaj/Pratyay_ERP/blob/main/Screenshots/Screenshot%202024-03-14%20144633.png)
+![App Screenshot](https://github.com/piyush21g/erppk/blob/main/Screenshots/Screenshot%202024-03-14%20150127.png)
 
 - Click on a date to view all orders due for delivery on that day.
   
-![App Screenshot](https://github.com/PratyayRaj/Pratyay_ERP/blob/main/Screenshots/Screenshot%202024-03-14%20144646.png)
+![App Screenshot](https://github.com/piyush21g/erppk/blob/main/Screenshots/Screenshot%202024-03-14%20152039.png)
+![App Screenshot](https://github.com/piyush21g/erppk/blob/main/Screenshots/Screenshot%202024-03-14%20150218.png)
