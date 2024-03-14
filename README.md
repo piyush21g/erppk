@@ -73,6 +73,18 @@ The application will open in your default web browser. If not, navigate to http:
 ![App Screenshot](https://github.com/piyush21g/erppk/blob/main/Screenshots/Screenshot%202024-03-14%20152039.png)
 ![App Screenshot](https://github.com/piyush21g/erppk/blob/main/Screenshots/Screenshot%202024-03-14%20150218.png)
 
+### Live Demonstration
+
+- Check out our dynamic ecommerce dashboard in action! This short video highlights key features such as easy product management, order tracking, and intuitive calendar views. With quick access to employee and customer details, streamline your ecommerce tasks effortlessly. Watch to see how our dashboard can enhance business operations through the following link: https://drive.google.com/file/d/1ux46GuK4KlDr8c-PiTg7fSvEIx3MxPTT/view?usp=sharing
 ### Contributing
 
 - Contributions are welcome! Feel free to submit pull requests or open issues for any improvements or suggestions.
+
+### License
+
+- This project is licensed under the MIT License.
+
+
+
+
+
