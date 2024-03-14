@@ -17,7 +17,7 @@ import {
 } from "@mui/material";
 
 
-const Product = () => {
+const Products = () => {
 
 
   const [products, setProducts] = useState([
@@ -206,4 +206,4 @@ const Product = () => {
   );
 };
 
-export default Product;
+export default Products;

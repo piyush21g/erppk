@@ -8,6 +8,8 @@ import { Ecommerce, Orders, Calendar, Employees,  Customers, Kanban, ColorPicker
 import './App.css';
 
 import { useStateContext } from './contexts/ContextProvider';
+import Product from './pages/Kanban';
+import Products from './pages/Products';
 
 const App = () => {
   const { setCurrentColor, setCurrentMode, currentMode, activeMenu, currentColor, themeSettings, setThemeSettings } = useStateContext();
@@ -74,7 +76,7 @@ const App = () => {
                 <Route path="/customers" element={<Customers />} />
 
                 {/* apps  */}
-                <Route path="/kanban" element={<Kanban />} />
+                <Route path="/products" element={<Products />} />
                 
                 <Route path="/calendar" element={<Calendar />} />
                 <Route path="/color-picker" element={<ColorPicker />} />
